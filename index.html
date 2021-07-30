@@ -11,29 +11,32 @@
 <body>
     <div id="wrap">
         <div class="content">
-            <div class="top-btn-wrap">
-                <div class="play-btn">
+            <header class="top-btn-wrap">
+                <button class="play-btn">
                     <i class="fas fa-play"></i>
                     <!-- <i class="fas fa-stop"></i> -->
-                </div>
+                </button>
                 <div class="timer-btn">
                     0:2
                 </div>
                 <div class="count-btn">10</div>
-            </div>
-            <div class="bug">
-                <img src="./img/bug.png" alt="bug">
-            </div>
-            <div class="carrot">
-                <img src="./img/carrot.png" alt="carrot">
-            </div>
-            <div class="popUp">
-                <a href="#" class="replay">
+            </header>
+            <section class="game-field">
+                <div class="bug">
+                    <img src="./img/bug.png" alt="bug">
+                </div>
+                <div class="carrot">
+                    <img src="./img/carrot.png" alt="carrot">
+                </div>
+            </section>   
+        </div>         
+            <div class="popUp popup-hide">
+                <button class="replay">
                     <i class="fas fa-reply"></i>
-                </a>
-                <h3 class="msg-wrap">YOU WON</h3>
+                </button>
+                <h3 class="popup-msg">YOU WON</h3>
             </div>
-        </div>
+       
     </div>
 </body>
 </html>

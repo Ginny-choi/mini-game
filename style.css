@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  width: 800px;
+  height: 500px;
+  background: url(./img/background.png) 50% 50% no-repeat;
+  background-size: cover;
+  margin: 100px auto;
+  position: relative;
+}
+.top-btn-wrap {
+  width: 300px;
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+}
+.play-btn {
+  cursor: pointer;
+  width: 80px;
+  height: 50px;
+  background-color: lightcoral;
+  text-align: center;
+  margin: auto;
+  border-radius: 9px;
+}
+.play-btn i {
+  font-size: 25px;
+  line-height: 50px;
+}
+.timer-btn {
+  width: 130px;
+  height: 30px;
+  background-color: white;
+  margin: 10px auto;
+  border: 3px solid #222;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 33px;
+}
+.count-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: violet;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  margin: auto;
+  line-height: 52px;
+  border: 2px solid #666;
+}
+.bug,
+.carrot {
+  cursor: pointer;
+  position: absolute;
+}
+.bug {
+  bottom: 10%;
+}
+.carrot {
+  bottom: 20%;
+  right: 20%;
+}
+
+.popUp {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 8px;
+  text-align: center;
+}
+.replay {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 5px auto;
+  background-color: lightcoral;
+  text-align: center;
+  border-radius: 8px;
+  line-height: 57px;
+  border: 1px solid #666;
+}
+.replay i {
+  font-size: 25px;
+}
+.msg-wrap {
+  font-size: 30px;
+  font-weight: 800;
+  color: silver;
+}

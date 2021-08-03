@@ -44,6 +44,7 @@ body {
   line-height: 45px;
 }
 .timer-btn {
+  opacity: 0;
   width: 130px;
   height: 30px;
   background-color: white;
@@ -54,8 +55,11 @@ body {
   font-weight: 700;
   text-align: center;
   line-height: 33px;
+  user-select: none;
+  cursor: auto;
 }
 .count-btn {
+  opacity: 0;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -66,6 +70,8 @@ body {
   margin: 10px auto 100px;
   line-height: 52px;
   border: 2px solid #666;
+  user-select: none;
+  cursor: auto;
 }
 .game-field {
   width: 100%;
@@ -76,9 +82,15 @@ body {
 .carrot {
   cursor: pointer;
   position: absolute;
+  transition: transform 100ms ease-in;
+}
+.bug:hover,
+.carrot:hover {
+  transform: scale(1.1);
 }
 
 .popUp {
+  display: block;
   width: 300px;
   background-color: rgba(0, 0, 0, 0.3);
   margin: auto;
